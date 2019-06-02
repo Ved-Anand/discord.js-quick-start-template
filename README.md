@@ -6,11 +6,11 @@ Note: This will only work for discord.js!
 
 Firstly, make sure you have downloaded [node](https://nodejs.org/en/download/).
 Then, use git to clone this repository. This will generate a new directory called Quick-Discord-Setup
-```cmd
+```bash
 C:\>git clone https://github.com/Phatfox2/Quick-Discord-Setup.git
 ```
 Enter the directory and then use the package manager [npm](https://www.npmjs.com/) to install discord.js. Don't worry about installing npm; it comes with node. Also, if you get some warns from doing this, just ignore them.
-```cmd
+```bash
 C:\>cd Quick-Discord-Setup
 C:\Quick-Discord-Setup\>npm install discord.js --save
 ```
@@ -31,7 +31,7 @@ Once this is done, you're good to go!
 ## Running the bot
 
 Running the bot is surprisingly simple. Navigate to the directory that the bot is in, and then type node index.js. A bit later, some messages should pop up.
-```cmd
+```bash
 C:\Quick-Discord-Setup\>node index.js
 TestBOT is online and is running on 2 servers!
 ```
