@@ -6,13 +6,13 @@ Note: This will only work for discord.js!
 
 Firstly, make sure you have downloaded [node](https://nodejs.org/en/download/).
 Then, use git to clone this repository. This will generate a new directory called Quick-Discord-Setup
-```bash
-git clone https://github.com/Phatfox2/Quick-Discord-Setup.git
+```cmd
+C:\>git clone https://github.com/Phatfox2/Quick-Discord-Setup.git
 ```
 Enter the directory and then use the package manager [npm](https://www.npmjs.com/) to install discord.js. Don't worry about installing npm; it comes with node. Also, if you get some warns from doing this, just ignore them.
-```bash
-cd Quick-Discord-Setup
-npm install discord.js --save
+```cmd
+C:\>cd Quick-Discord-Setup
+C:\Quick-Discord-Setup\>npm install discord.js --save
 ```
 Now, if you haven't already, make the [discord bot application](https://discordapp.com/developers/applications/) on the [discord homepage](discord.com), and get it onto your server. If you have not made a discord bot application yet, or have not got the bot onto your server, check out [this link](https://github.com/reactiflux/discord-irc/wiki/Creating-a-discord-bot-&-getting-a-token)
 
@@ -31,7 +31,7 @@ Once this is done, you're good to go!
 ## Running the bot
 
 Running the bot is surprisingly simple. Navigate to the directory that the bot is in, and then type node index.js. A bit later, some messages should pop up.
-```bash
+```cmd
 C:\Quick-Discord-Setup\>node index.js
 TestBOT is online and is running on 2 servers!
 ```
