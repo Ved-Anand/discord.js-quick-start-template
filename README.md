@@ -36,3 +36,7 @@ C:\Quick-Discord-Setup\>node index.js
 TestBOT is online and is running on 2 servers!
 ```
 And you should be good to go! To make sure the bot is working, hop into the server that the bot is in, and type the command prefix you chose, and then ping. E.g. $ping, ?ping, !ping
+
+## Adding new commands/Making Edits
+
+If you wish to add new commands, there are plenty of comments in the index.js file explaining where you would put them.
