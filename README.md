@@ -12,7 +12,8 @@ C:\>git clone https://github.com/Phatfox2/discord.js-quick-start-template.git
 Enter the directory and then use the package manager [npm](https://www.npmjs.com/) to install discord.js. Don't worry about installing npm; it comes with node. Also, if you get some warns from doing this, just ignore them.
 ```bash
 C:\>cd discord.js-quick-start-template
-C:\discord.js-quick-start-template\>npm install discord.js --save
+C:\discord.js-quick-start-template\>cd newBot
+C:\discord.js-quick-start-template\newBot\>npm install discord.js --save
 ```
 Now, if you haven't already, make the [discord bot application](https://discordapp.com/developers/applications/) on the [discord homepage](discord.com), and get it onto your server. If you have not made a discord bot application yet, or have not got the bot onto your server, check out [this link](https://github.com/reactiflux/discord-irc/wiki/Creating-a-discord-bot-&-getting-a-token)
 
@@ -32,7 +33,7 @@ Once this is done, you're good to go!
 
 Running the bot is surprisingly simple. Navigate to the directory that the bot is in, and then type node index.js. A bit later, some messages should pop up.
 ```bash
-C:\discord.js-quick-start-template\>node index.js
+C:\discord.js-quick-start-template\newBot\>node index.js
 TestBOT is online and is running on 2 servers!
 ```
 And you should be good to go! To make sure the bot is working, hop into the server that the bot is in, and type the command prefix you chose, and then ping. E.g. $ping, ?ping, !ping
